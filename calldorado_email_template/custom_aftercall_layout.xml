@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/email_background">
+
+    <TextView
+        android:id="@+id/bt_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_blue_bg"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Add email to contact"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_save_email"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/et_typed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#28aae3"
+            android:background="@drawable/field_white_blue_bg"
+            android:inputType="textEmailAddress"
+            android:hint="Enter email..."
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColorHint="#28aae3" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/bt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_pink_bg"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Cancel" />
+
+            <TextView
+                android:id="@+id/bt_save"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_blue_bg"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Save" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_write_email"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            android:background="@drawable/field_white_blue_bg">
+
+            <RelativeLayout
+                android:id="@+id/rl_edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_saved_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/bt_edit"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#28aae3"
+                    android:background="#ffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#28aae3"
+                    android:imeOptions="actionDone" />
+
+                <ImageView
+                    android:id="@+id/bt_edit"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/edit_icon"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#28aae3"
+                android:layout_marginTop="@dimen/activity_horizontal_margin" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/tv_subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Subject:" />
+
+                <EditText
+                    android:id="@+id/et_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_subject"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:textColor="@android:color/black"
+                    android:inputType="textEmailSubject"
+                    android:background="#ffffff"
+                    android:textSize="16dp"
+                    android:imeOptions="actionSend"
+                    android:textColorHint="@android:color/darker_gray"/>
+
+                <EditText
+                    android:id="@+id/et_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_below="@+id/et_subject"
+                    android:textColor="@android:color/black"
+                    android:background="#ffffff"
+                    android:textSize="16dp"
+                    android:hint="Enter message..."
+                    android:imeOptions="actionSend"
+                    android:textColorHint="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_bg"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="Send e-mail" />
+
+    </LinearLayout>
+
+</RelativeLayout>
