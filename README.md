@@ -11,7 +11,7 @@ There are three areas for you to integrate or able to facilitate:
 *	custom field for the WIC
 *	custom field in the Aftercall screen
 
-Note: WIC is our floating UI that appears during a call to identify the caller.
+Note: WIC is the floating UI that appears during a call to identify the caller.
 
 ## Documentation
 
@@ -35,17 +35,11 @@ Calldorado SDK now provides a view called CalldoradoCustomView from where your c
 | int convertDpToPixel (int dp)  | Converts dp (density independent pixels) units to equivalent pixels, depending on device density  |
 | void showFeedbackMessage (String message)  | Shows a toast message on the bottom if from the WIC or a snack bar on the top if from the aftercall screen  |
 
-| Override  | Description  |
+| @Override  | Description  |
 |---|---|
-| @Override
-View getRootView()  | Initialize your view here with all the UI elements and logic necessary, then return it.  |
-| @Override
-void executeOnStart()  | Place here the code to be executed on start of the aftercall activity (not valid for the WIC)  |
-| @Override
-void executeOnResume()  | Place here the code to be executed on resume of the aftercall activity (not valid for the WIC)  |
-| @Override
-void executeOnPause()  | Place here the code to be executed on pause of the aftercall activity (not valid for the WIC)  |
-| @Override
-void executeOnStop()  | Place here the code to be executed on stop of the aftercall activity (not valid for the WIC)  |
-| @Override
-void executeOnDestroy()  | Place here the code to be executed on destroy of the aftercall activity (not valid for the WIC)  |
+| View getRootView()  | Initialize your view here with all the UI elements and logic necessary, then return it.  |
+| void executeOnStart()  | Place here the code to be executed on start of the aftercall activity (not valid for the WIC)  |
+| void executeOnResume()  | Place here the code to be executed on resume of the aftercall activity (not valid for the WIC)  |
+| void executeOnPause()  | Place here the code to be executed on pause of the aftercall activity (not valid for the WIC)  |
+| void executeOnStop()  | Place here the code to be executed on stop of the aftercall activity (not valid for the WIC)  |
+| void executeOnDestroy()  | Place here the code to be executed on destroy of the aftercall activity (not valid for the WIC)  |
