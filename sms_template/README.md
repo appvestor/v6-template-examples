@@ -1,6 +1,7 @@
-### Step by Step
+## Get Started
 
-1. First, you need to declare a new receiver in the manifest.
+### Step 1
+First, declare a new receiver in the manifest.
   
  ```
 <receiver
@@ -13,7 +14,8 @@
 </receiver>
 ```
 
-2. Your receiver is where you set your views so that Calldorado can access them on runtime. You can provide up to three different views to be used in different places.
+### Step 2
+Your receiver is where you set your views so that Calldorado can access them on runtime. You can provide up to three different views to be used in different places.
 
 ```
 public class CustomViewReceiver extends BroadcastReceiver {
@@ -35,5 +37,6 @@ public class CustomViewReceiver extends BroadcastReceiver {
 }
 ```
 
-3. Create a class that extends from CalldoradoCustomView and overrides the method getRootView(), from where you can inflate a layout resource or create the UI programmatically. Open the classes AftercallCustomView.java and WicDisplayCustomView.java for samples.
+### Step 3
+Create a class that extends from CalldoradoCustomView and overrides the method getRootView(), from where you can inflate a layout resource or create the UI programmatically. Open the classes AftercallCustomView.java or WicDisplayCustomView.java for samples.
  
