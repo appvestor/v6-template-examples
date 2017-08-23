@@ -13,8 +13,6 @@ import com.concentriclivers.mms.com.android.mms.R;
 
 public class AftercallCustomView extends CalldoradoCustomView {
 
-    private TextView lastMessage;
-
     public AftercallCustomView(Context context) {
         super(context);
     }
@@ -34,7 +32,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
         final LinearLayout write = (LinearLayout) inflate(getContext(),
                 R.layout.custom_view_write_message, new LinearLayout(getContext()));
 
-        lastMessage = (TextView) show.findViewById(R.id.last_message);
+        final TextView lastMessage = (TextView) show.findViewById(R.id.last_message);
 
         String text = (String) findItem(getPhoneNumber(), "");
 
@@ -112,14 +110,5 @@ public class AftercallCustomView extends CalldoradoCustomView {
         ll.addView(write);
 
         return ll;
-    }
-
-    @Override
-    public void executeOnResume() {
-        String text = (String) findItem(getPhoneNumber(), "");
-
-        if (lastMessage != null && !text.isEmpty()) {
-            lastMessage.setText(text);
-        }
     }
 }
