@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f7f9">
+
+    <EditText
+        android:id="@+id/write_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/widget_subject_text_color_unread"
+        android:textColorHint="@color/autocomplete_divider_color"
+        android:background="@android:color/transparent"
+        android:hint="@string/type_to_compose_text_enter_to_send"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/chip_padding"
+        android:textColor="@color/widget_subject_text_color_unread"
+        android:textColorHint="@color/autocomplete_divider_color"
+        android:background="@android:color/holo_blue_dark" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/send_quick_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_green_bg"
+            android:text="Send SMS"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:clickable="true" />
+    </RelativeLayout>
+
+</LinearLayout>
