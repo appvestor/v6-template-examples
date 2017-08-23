@@ -1,7 +1,7 @@
 ## Get Started
 
 ### Step 1
-First, you need to declare a new receiver in the manifest.
+First, declare a new receiver in the manifest.
   
  ```
 <receiver
