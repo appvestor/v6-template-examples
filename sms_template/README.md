@@ -24,11 +24,11 @@ public class CustomViewReceiver extends BroadcastReceiver {
         if (intent.getAction().equals("com.calldorado.android.intent.SEARCH") ||
                 intent.getAction().equals("android.intent.action.PHONE_STATE")) {
 
-            Calldorado.setAftercallCustomView(
-                    new AftercallCustomView(context));
+	    Calldorado.setAftercallCustomView(
+		    new AftercallCustomView(context));
 					   
-			Calldorado.setWicDisplayCustomView(
-					new WicDisplayCustomView(context));					   
+	    Calldorado.setWicDisplayCustomView(
+		    new WicDisplayCustomView(context));					   
 
         }
     }
