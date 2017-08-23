@@ -1,7 +1,11 @@
+# Email Template
+
+Code sample for an e-mail app.
+
 ## Get Started
 
 ### Step 1
-First, declare a new receiver in the manifest.
+Declare a new receiver in the manifest.
   
  ```
 <receiver
