@@ -32,5 +32,5 @@ public class CustomViewReceiver extends BroadcastReceiver {
 }
 ```
 
-3. Create a class that extends from CalldoradoCustomView and overrides the method getRootView(), from where you can inflate a layout resource or create the UI programmatically. Open the class AftercallCustomView for a sample.
+3. Create a class that extends from CalldoradoCustomView and overrides the method getRootView(), from where you can inflate a layout resource or create the UI programmatically. Open the class AftercallCustomView.java for a sample.
  
