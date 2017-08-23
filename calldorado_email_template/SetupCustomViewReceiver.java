@@ -8,11 +8,7 @@ import com.calldorado.Calldorado;
 import com.email.email.BuildConfig;
 import com.email.email.views.AftercallCustomView;
 
-/**
- * Created by Jussi on 16-Aug-17.
- */
-
-public class SetupCustomViewReceiver extends BroadcastReceiver {
+public class CustomViewReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
