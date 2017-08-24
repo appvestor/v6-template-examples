@@ -31,13 +31,18 @@ public class AftercallCustomView extends CalldoradoCustomView {
 
     @Override
     public View getRootView() {
+        
+        /* 
+        This UI is created programmatically, no resources were used
+        See how to use a layout resource in the class WicDisplayCustomView.java 
+        */
 
-        int dpUnits = convertDpToPixel(5);
+        int dpUnits = convertDpToPixel(16);
         LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
 
         final LinearLayout ll = new LinearLayout(getContext());
-        ll.setPadding(3*dpUnits, 2*dpUnits, 3*dpUnits, 2*dpUnits);
+        ll.setPadding(dpUnits, dpUnits, dpUnits, dpUnits);
         ll.setBackgroundColor(Color.parseColor("#F44336"));
         ll.setLayoutParams(llp);
 
