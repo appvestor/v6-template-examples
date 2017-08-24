@@ -8,7 +8,7 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.email.email.receivers;
+package com.your.package;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
