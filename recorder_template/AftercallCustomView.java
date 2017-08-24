@@ -22,8 +22,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-import callidentifier.record.voice.AftercallPlayer;
-import callidentifier.record.voice.AftercallRecorder;
+import com.your.package.AftercallPlayer; //Class responsible of playing voice
+import com.your.package.AftercallRecorder; //Class responsible of recording voice
 import callidentifier.record.voice.R;
 
 
