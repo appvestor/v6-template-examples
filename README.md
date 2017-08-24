@@ -8,7 +8,7 @@ If you don't already have a Calldorado account make sure you sign up [here](http
 
 This is a guide of how to integrate native views and actions into Calldorado’s UI. You should be familiar with the Calldorado SDK and have a basic working integration of Calldorado before proceeding. If you do not, please have a look [here](https://my.calldorado.com/) under Integration and Documentation.
 
-There are three areas where you can provide your own functionality. Two of those areas are part of the WIC - the floating box that appears during a call to identify the caller - and the last one is part of the Aftercall screen - the details page that comes after the call ends.
+There are three areas where you can provide your own functionality. Two of those areas are part of the WIC - the floating box that appears during a call to identify the caller - and the third one is part of the Aftercall screen - the details page that comes after the call ends.
 
 *	Custom action on the WIC; allow users to perform custom actions during a call
 *	Custom UI on the WIC; show the user content from your app during a call
