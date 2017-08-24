@@ -43,7 +43,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
 
         final LinearLayout ll = new LinearLayout(getContext());
         ll.setPadding(dpUnits, dpUnits, dpUnits, dpUnits);
-        ll.setBackgroundColor(Color.parseColor("#F44336"));
+        ll.setBackgroundColor(Color.parseColor("#8BC34A"));
         ll.setLayoutParams(llp);
 
         final EditText textEdit = new EditText(getContext());
