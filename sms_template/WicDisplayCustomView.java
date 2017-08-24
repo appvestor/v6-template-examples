@@ -8,7 +8,7 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.concentriclivers.views;
+package com.your.package;
 
 import android.content.Context;
 import android.graphics.Color;
