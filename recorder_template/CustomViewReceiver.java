@@ -8,7 +8,7 @@ import com.calldorado.Calldorado;
 
 public class CustomViewReceiver extends BroadcastReceiver {
 
-    private final static String TAG = "SetupFragmntReceiver";
+    private final static String TAG = CustomViewReceiver.class.getName();
 
     @Override
     public void onReceive(Context context, Intent intent) {

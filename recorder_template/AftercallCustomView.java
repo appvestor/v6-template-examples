@@ -1,4 +1,4 @@
-package callidentifier.record.voice.remoteAftercall;
+package com.your.package;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,9 +11,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-
 import callidentifier.record.voice.AftercallPlayer;
 import callidentifier.record.voice.AftercallRecorder;
 import callidentifier.record.voice.R;
@@ -26,7 +24,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
     private Button recCallButton, recVoiceButton, lastCallButton;
     private ImageButton shareButton, settingsButton, fileButton, playButton, saveButton, pauseButton, stopButton, deleteButton, recButton;
     private RelativeLayout playButtonLayout, pauseButtonLayout, stopButtonLayout, saveButtonLayout, deleteButtonLayout, recButtonLayout;
-    private static final String TAG = "AftercallFragment";
+    private static final String TAG = AftercallCustomView.class.getName();
     private boolean isVoiceRecordingFromMainApp = false, willRecordNextCall = false, anyAvailableRecordings = false;
     private Context context;
     private AftercallRecorder recorder = null;
@@ -128,30 +126,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "Share button pressed");  //share last voice file if any present
-                /*SharedPreferences preferencesShared = PreferenceManager.getDefaultSharedPreferences(context.getApplicationContext());
-                String dir = preferencesShared.getString(context.getResources().getString(R.string.pref_location_key), "");
-                File dir_file = new File(dir);
-                if (!dir_file.exists())
-                    dir_file.mkdirs();
-                if (dir_file != null && dir_file.listFiles() != null && dir_file.listFiles().length != 0) {
-                    File lastRecordedFile = dir_file.listFiles()[0];
-                    Log.d(TAG, "lastRecordedFile = " + lastRecordedFile.getName());
-                    Intent intent = new Intent();
-                    intent.setAction(Intent.ACTION_SEND);
-                    intent.setType("audio*//*");
-                    Uri uri = Uri.fromFile(lastRecordedFile);
-                    intent.putExtra(Intent.EXTRA_STREAM, uri);
-                    try {
-                        getCalldoradoContext().startActivity(intent);
-                    } catch (Exception e) {
-                        try {
-                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            getCalldoradoContext().startActivity(intent);
-                        } catch (Exception ee) {
-                            Log.d(TAG, "Exception while trying to share a recording");
-                        }
-                    }
-                }*/
+                //Add link or action
             }
         });
 
@@ -159,9 +134,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "Settings button pressed");
-                //Intent settingActivity = new Intent(getCalldoradoContext(), SettingsActivity.class); //link to settings activity of app
-                //settingActivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-                //context.startActivity(settingActivity);
+                //Add link or action
             }
         });
 
@@ -169,18 +142,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "File button pressed");
-                /*Intent playerActivity = new Intent(getCalldoradoContext(), MainActivity.class);
-                playerActivity.putExtra("go_to_player_tab", true);
-                try {
-                    getCalldoradoContext().startActivity(playerActivity);
-                } catch (Exception e) {
-                    try {
-                        playerActivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        getCalldoradoContext().startActivity(playerActivity);
-                    } catch (Exception ee) {
-                        Log.d(TAG, "Exception while trying to move to app activity");
-                    }
-                }*/
+                //Add link or action
             }
         });
 
@@ -188,12 +150,6 @@ public class AftercallCustomView extends CalldoradoCustomView {
     }
 
     private boolean isAnyRecordingPresent() {
-        /*SharedPreferences preferencesShared = PreferenceManager.getDefaultSharedPreferences(context.getApplicationContext());
-        String dir = preferencesShared.getString(context.getResources().getString(R.string.pref_location_key), "");
-        File dir_file = new File(dir);
-        if (!dir_file.exists())
-            dir_file.mkdirs();
-        return (dir_file != null && dir_file.listFiles() != null && dir_file.listFiles().length > 0);*/
         //add logic to check if we have any recordings available. If not, deactivate play and share buttons
         return true;
     }
