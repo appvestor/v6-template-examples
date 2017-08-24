@@ -7,7 +7,7 @@ Generic code samples.
 ### Step 1
 Declare a new receiver in the manifest.
   
- ```
+ ```xml
 <receiver
     android:name=".receiver.CustomViewReceiver"
     android:enabled="true">
@@ -21,7 +21,7 @@ Declare a new receiver in the manifest.
 ### Step 2 
 Your receiver is where you set your views so that Calldorado can access them on runtime. You can provide up to three different views to be used in different places.
 
-```
+```java
 public class CustomViewReceiver extends BroadcastReceiver {
 
     @Override
@@ -51,7 +51,7 @@ Create a class that extends from CalldoradoCustomView and overrides the method g
 
 See how the template looks like.
 
-| WIC (lastest note) |  Aftercall (lastest note)  | Aftercall (add note) |
+|  WIC (note and action)  |  Aftercall (add note)  |  Aftercall (latest note)  |
 |---|---|---|
-|  <img src="screenshots/wic_incoming_last_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_last_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_save_note.png" width="288" height="512">  |
+|  <img src="screenshots/wic_incoming_last_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_save_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_last_note.png" width="288" height="512">  |
  
