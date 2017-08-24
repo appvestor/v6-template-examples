@@ -19,7 +19,7 @@ public class WicActionCustomView extends CalldoradoCustomView {
     private ImageButton wicButton1;
     private boolean isVoiceRecordingPossible = false;
     private Context context;
-    private static final String TAG = AftercallCustomView.class.getName();
+    private static final String TAG = WicActionCustomView.class.getName();
     public static final String CALL_RECORDING = "com.calldorado.android.intent.CALL_RECORDING";
 
     public WicActionCustomView(Context context) {
