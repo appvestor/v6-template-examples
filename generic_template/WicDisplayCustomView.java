@@ -29,27 +29,25 @@ public class WicDisplayCustomView extends CalldoradoCustomView {
 
     @Override
     public View getRootView() {
-
-        int dpUnits = convertDpToPixel(5);
-        LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-
-        final LinearLayout ll = new LinearLayout(getContext());
-        ll.setLayoutParams(llp);
-
-        final TextView textView = new TextView(getContext());
-        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-        textView.setTextColor(Color.WHITE);
+        
+        /* 
+        This UI is created from a layout resource called wic_display_layout.xml
+        See how to create an UI programmatically in the class AftercallCustomView.java 
+        */
 
         String note = (String) findItem(getPhoneNumber(),"");
 
         if (!note.isEmpty()) {
+
+            LinearLayout ll = (LinearLayout) inflate(getContext(),
+                    R.layout.wic_display_layout, getLinearViewGroup());
+
+            TextView textView = (TextView) ll.findViewById(R.id.text_view);
             textView.setText(note);
-            ll.setPadding(3*dpUnits, 2*dpUnits, 3*dpUnits, 2*dpUnits);
-            ll.setBackgroundColor(Color.parseColor("#F44336"));
-            ll.addView(textView);
+
+            return ll;
         }
 
-        return ll;
+        return null;
     }
 }
