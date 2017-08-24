@@ -1,3 +1,14 @@
+//
+//  Created by Calldorado Team on August 24th 2017.
+//  Copyright © 2017 Calldorado ApS. All rights reserved.
+//
+//  Licensed under the Calldorado SDK Template License Version 1;
+//  you must comply with this license in order to use this file.
+//  You may obtain a copy of the License at the following URL:
+//  https://github.com/Calldorado-com/calldorado-template-examples
+//
+
+
 package com.sappalodapps.callblocker.fragment.wic.aftercall;
 
 import android.content.Context;
