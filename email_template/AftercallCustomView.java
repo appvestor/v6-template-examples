@@ -8,7 +8,7 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.email.email.views;
+package com.your.package;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-import com.email.email.R;
+import com.your.package.R;
 import java.util.ArrayList;
 
 public class AftercallCustomView extends CalldoradoCustomView {
