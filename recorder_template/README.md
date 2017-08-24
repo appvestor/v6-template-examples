@@ -1,6 +1,6 @@
-# Blocker Template
+# Recorder Template
 
-Code sample for a call blocker app.
+Code sample for a call recorder app.
 
 ## Get Started
 
