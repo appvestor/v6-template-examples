@@ -48,7 +48,7 @@ Create a class that extends from CalldoradoCustomView and overrides the method g
 
 See how the template looks like.
 
-|  WIC  |  Aftercall  |  Aftrcall  |
+|  WIC  |  Aftercall  |  Aftercall  |
 |---|---|---|
 |  <img src="screenshots/Screenshot_20170824-142600.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170824-142640.png" width="288" height="512">  |  <img src="screenshotsScreenshot_20170824-142635.png" width="288" height="512">
 
