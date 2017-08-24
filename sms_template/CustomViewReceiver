@@ -8,14 +8,14 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.concentriclivers.receiver;
+package com.your.package;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import com.calldorado.Calldorado;
-import com.concentriclivers.views.AftercallCustomView;
-import com.concentriclivers.views.WicDisplayCustomView;
+import com.your.package.AftercallCustomView;
+import com.your.package.WicDisplayCustomView;
 
 public class CustomViewReceiver extends BroadcastReceiver {
 
