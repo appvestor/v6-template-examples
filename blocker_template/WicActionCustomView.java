@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-import com.sappalodapps.callblocker.R;
+import com.your.package.R;
 
 
 public class WicActionCustomView extends CalldoradoCustomView {
