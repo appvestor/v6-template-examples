@@ -8,7 +8,7 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.badharry.heartattack.views;
+package com.your.package;
 
 import android.content.Context;
 import android.view.View;
