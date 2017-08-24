@@ -11,13 +11,11 @@
 package com.badharry.heartattack.views;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.util.TypedValue;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.badharry.heartattack.R;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
 
 
