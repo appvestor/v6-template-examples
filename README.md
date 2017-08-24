@@ -40,4 +40,4 @@ The [message template](https://github.com/Calldorado-com/calldorado-template-exa
 
 ### Recorder Template
 
-The [recorder template](https://github.com/Calldorado-com/calldorado-template-examples/tree/master/recorder_template) shows you how to add two different types of native experiences for a call recorder app. In the examples we show how to start an action during the call and how to allow the user to utilize the aftercall screen to finilize the results of this action.
+The [recorder template](https://github.com/Calldorado-com/calldorado-template-examples/tree/master/recorder_template) shows you how to add two different types of native experiences for a call recorder app. In the examples we show how to start an action during the call and how to allow the user to use the aftercall screen to finalize the results of this action.
