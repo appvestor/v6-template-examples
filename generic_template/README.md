@@ -7,7 +7,7 @@ Generic code samples.
 ### Step 1
 Declare a new receiver in the manifest.
   
- ```
+ ```xml
 <receiver
     android:name=".receiver.CustomViewReceiver"
     android:enabled="true">
@@ -21,7 +21,7 @@ Declare a new receiver in the manifest.
 ### Step 2 
 Your receiver is where you set your views so that Calldorado can access them on runtime. You can provide up to three different views to be used in different places.
 
-```
+```java
 public class CustomViewReceiver extends BroadcastReceiver {
 
     @Override
