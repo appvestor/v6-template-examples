@@ -1,6 +1,6 @@
 # Blocker Template
 
-Code sample for a call blocker app.
+Code sample for a call blocker app. Note that we are not providing the code to actually block contacts, the existing logic only simulates the template's flow.
 
 ## Get Started
 
