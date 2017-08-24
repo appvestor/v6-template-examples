@@ -21,7 +21,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-import callidentifier.record.voice.R;
+import com.your.package.R;
 
 public class WicActionCustomView extends CalldoradoCustomView {
 
