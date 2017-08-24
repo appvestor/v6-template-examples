@@ -1,6 +1,6 @@
 # Email Template
 
-Code sample for an e-mail app.
+Code sample for an e-mail app. Note that we are not providing the code to actually read or send emails, the existing logic only simulates the template's flow.
 
 ## Get Started
 
