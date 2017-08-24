@@ -51,7 +51,7 @@ Create a class that extends from CalldoradoCustomView and overrides the method g
 
 See how the template looks like.
 
-|  WIC (note and action)  |  Aftercall (add note)  |  Aftercall (lastest note)  |
+|  WIC (note and action)  |  Aftercall (add note)  |  Aftercall (latest note)  |
 |---|---|---|
 |  <img src="screenshots/wic_incoming_last_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_save_note.png" width="288" height="512">  |  <img src="screenshots/aftercall_last_note.png" width="288" height="512">  |
  
