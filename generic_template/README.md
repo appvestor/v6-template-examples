@@ -46,4 +46,12 @@ public class CustomViewReceiver extends BroadcastReceiver {
 
 ### Step 3
 Create a class that extends from CalldoradoCustomView and overrides the method getRootView(), from where you can inflate a layout resource or create the UI programmatically. Open the classes AftercallCustomView.java, WicDisplayCustomView.java or WicActionCustomView.java for samples.
+
+## Images
+
+See how the template looks like.
+
+|  WIC  |  Aftercall  |
+|---|---|
+|  <img src="screenshots/Screenshot_20170824-100400.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170824-100329.png" width="288" height="512">  |
  
