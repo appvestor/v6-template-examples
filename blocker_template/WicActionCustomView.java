@@ -8,7 +8,6 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-
 package com.sappalodapps.callblocker.fragment.wic.aftercall;
 
 import android.content.Context;
