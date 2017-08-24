@@ -8,14 +8,14 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.badharry.heartattack.views;
+package callidentifier.record.voice;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.badharry.heartattack.R;
+import callidentifier.record.voice.R;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
 
 
