@@ -16,34 +16,7 @@ There are three areas where you can provide your own functionality. Two of those
 
 ## Documentation
 
-Calldorado SDK now provides a view called CalldoradoCustomView from where your classes can extend from, and have access to the methods listed below.
-
-### CalldoradoCustomView Methods
-
-| Gets  | Description  |
-|---|---|
-| String getPhoneNumber()  | Phone number of who is calling or who the user is calling to  |
-| String getContactName()  | Contact name of who is calling or who the user is calling to  |
-| Context getContext()  | Context from your receiver  |
-| Context getCalldoradoContext()  | Context from Aftercall activity or WIC receiver  |
-| RelativeLayout getRelativeViewGroup()  | Returns a simple Relative Layout to use as View Group when inflating a layout resource  |
-| LinearLayout getLinearViewGroup()  | Returns a simple Linear Layout to use as View Group when inflating a layout resource  |
-
-| Utils  | Description  |
-|---|---|
-| void saveItem (String key, Object newValue)  | Saves object of any simple type into shared preferences  |
-| Object findItem (String key, Object defaultValue)   | Finds object of any simple type from shared preferences  |
-| int convertDpToPixel (int dp)  | Converts dp (density independent pixels) units to equivalent pixels, depending on device density  |
-| void showFeedbackMessage (String message)  | Shows a toast message on the bottom if from the WIC or a snack bar on the top if from the aftercall screen  |
-
-| @Override  | Description  |
-|---|---|
-| View getRootView()  | Initialize your view here with all the UI elements and logic necessary, then return it.  |
-| void executeOnStart()  | Place here the code to be executed on start of the aftercall activity (not valid for the WIC)  |
-| void executeOnResume()  | Place here the code to be executed on resume of the aftercall activity (not valid for the WIC)  |
-| void executeOnPause()  | Place here the code to be executed on pause of the aftercall activity (not valid for the WIC)  |
-| void executeOnStop()  | Place here the code to be executed on stop of the aftercall activity (not valid for the WIC)  |
-| void executeOnDestroy()  | Place here the code to be executed on destroy of the aftercall activity (not valid for the WIC)  |
+Find it in our wiki page [here](https://github.com/Calldorado-com/calldorado-template-examples/wiki).
 
 ## Get Started
 
