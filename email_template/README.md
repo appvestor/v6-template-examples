@@ -45,6 +45,6 @@ Create a class that extends from CalldoradoCustomView and overrides the method g
 
 See how the template looks like.
 
-|  Aftercall (no previous email) |  Aftercall (add email)  | WIC (saved email) |
+|  Aftercall (no previous email) |  Aftercall (add email)  | Aftercall (saved email) |
 |---|---|---|
 |  <img src="screenshots/aftercall_no_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_add_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_saved_email.png" width="288" height="512">  |
