@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:padding="16dp"
-        android:background="#F44336"
+        android:background="#8BC34A"
         android:textColor="@android:color/white"/>
 
 </RelativeLayout>
