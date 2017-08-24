@@ -1,6 +1,6 @@
 # Calldorado Templates
 
-A collection of native templates that can be used with the Calldorado SDK to integrate your own functionality in the Caller ID. The templates provided here is meant as a starting point, we highly encourage you to built on top of the code we give you here.
+A collection of native templates that can be used with the Calldorado SDK to integrate your own functionality in the Caller ID. The templates provided here are meant as a starting point, we highly encourage you to built on top of the code we give you.
 
 If you don't already have a Calldorado account make sure you sign up [here](https://my.calldorado.com/login/signup).
 
