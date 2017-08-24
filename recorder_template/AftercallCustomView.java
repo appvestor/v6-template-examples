@@ -26,7 +26,7 @@ public class AftercallCustomView extends CalldoradoCustomView {
     private Button recCallButton, recVoiceButton, lastCallButton;
     private ImageButton shareButton, settingsButton, fileButton, playButton, saveButton, pauseButton, stopButton, deleteButton, recButton;
     private RelativeLayout playButtonLayout, pauseButtonLayout, stopButtonLayout, saveButtonLayout, deleteButtonLayout, recButtonLayout;
-    private static final String TAG = "AftercallFragment";
+    private static final String TAG = AftercallCustomView.class.getName();
     private boolean isVoiceRecordingFromMainApp = false, willRecordNextCall = false, anyAvailableRecordings = false;
     private Context context;
     private AftercallRecorder recorder = null;
