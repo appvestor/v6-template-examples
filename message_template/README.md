@@ -1,6 +1,6 @@
 # Message Template
 
-Code sample for a messaging app.
+Code sample for a messaging app. Note that we are not providing the code to actually read or send sms, the existing logic only simulates the template's flow.
 
 ## Get Started
 
