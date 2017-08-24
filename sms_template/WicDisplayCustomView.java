@@ -29,27 +29,30 @@ public class WicDisplayCustomView extends CalldoradoCustomView {
     @Override
     public View getRootView() {
 
-        int dpUnits = convertDpToPixel(5);
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-
-        final LinearLayout ll = new LinearLayout(getContext());
-        ll.setLayoutParams(lp);
-
-        final TextView textView = new TextView(getContext());
-        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-        textView.setEllipsize(TextUtils.TruncateAt.END);
-        textView.setTextColor(Color.DKGRAY);
-        textView.setMaxLines(3);
-
         String text = (String) findItem(getPhoneNumber(), "");
-        if (text != null ) {
+
+        if (!text.isEmpty()) {
+
+            int dpUnits = convertDpToPixel(16);
+            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+            final LinearLayout ll = new LinearLayout(getContext());
+            ll.setLayoutParams(lp);
+
+            final TextView textView = new TextView(getContext());
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+            textView.setEllipsize(TextUtils.TruncateAt.END);
+            textView.setTextColor(Color.DKGRAY);
+            textView.setMaxLines(3);
+
             textView.setText(text);
-            ll.setPadding(3 * dpUnits, 2 * dpUnits, 3 * dpUnits, 2 * dpUnits);
+            ll.setPadding(dpUnits, dpUnits, dpUnits, dpUnits);
             ll.setBackgroundColor(Color.parseColor("#f4f7f9"));
             ll.addView(textView);
+            return ll;
         }
 
-        return ll;
+        return null;
     }
 }
