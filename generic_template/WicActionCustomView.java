@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.your.package.R;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
 
 public class WicActionCustomView extends CalldoradoCustomView {
@@ -27,7 +28,7 @@ public class WicActionCustomView extends CalldoradoCustomView {
     public View getRootView() {
 
         ImageView imageView = new ImageView(getContext());
-        imageView.setBackgroundResource(android.R.drawable.ic_menu_info_details);
+        imageView.setBackgroundResource(R.drawable.ic_info_outline_white);
 
         imageView.setOnClickListener(new OnClickListener() {
             @Override
