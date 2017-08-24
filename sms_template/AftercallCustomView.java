@@ -41,15 +41,16 @@ public class AftercallCustomView extends CalldoradoCustomView {
 
         final LinearLayout write = (LinearLayout) inflate(getContext(),
                 R.layout.custom_view_write_message, new LinearLayout(getContext()));
-
-        final TextView lastMessage = (TextView) show.findViewById(R.id.last_message);
-
+        
         String text = (String) findItem(getPhoneNumber(), "");
 
         if (text.isEmpty())
             show.setVisibility(GONE);
         else
             write.setVisibility(GONE);
+
+        final TextView lastMessage = (TextView) show.findViewById(R.id.last_message);
+        lastMessage.setText(text);
 
         ImageView quickReply = (ImageView) show.findViewById(R.id.quick_reply);
         quickReply.setOnClickListener(new OnClickListener() {
