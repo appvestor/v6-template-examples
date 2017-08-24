@@ -1,6 +1,6 @@
 # Recorder Template
 
-Code sample for a call recorder app.
+Code sample for a call recorder app. Note that we are not providing the code to actually record call or play recordings, the existing logic only simulates the template's flow.
 
 ## Get Started
 
