@@ -1,6 +1,6 @@
-# SMS Template
+# Message Template
 
-Code sample for an SMS app.
+Code sample for a messaging app.
 
 ## Get Started
 
@@ -48,7 +48,7 @@ Create a class that extends from CalldoradoCustomView and overrides the method g
 
 See how the template looks like.
 
-|  Aftercall (no previous sms) |  Aftercall (last sms)  | WIC (last sms) |
+|  WIC (lastest message)|  Aftercall (lastest message)  | Aftercall (write message)  |
 |---|---|---|
-|  <img src="screenshots/aftercall_no_messages.png" width="288" height="512">  |  <img src="screenshots/aftercall_last_message.png" width="288" height="512">  |  <img src="screenshots/wic_last_message.png" width="288" height="512">  |
+|  <img src="screenshots/wic_last_message.png" width="288" height="512">  |  <img src="screenshots/aftercall_last_message.png" width="288" height="512">  |  <img src="screenshots/aftercall_no_messages.png" width="288" height="512">  |
  
