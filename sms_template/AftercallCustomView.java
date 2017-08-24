@@ -8,7 +8,7 @@
 //  https://github.com/Calldorado-com/calldorado-template-examples
 //
 
-package com.concentriclivers.views;
+package com.your.package;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.calldorado.android.ui.views.custom.CalldoradoCustomView;
-import com.concentriclivers.mms.com.android.mms.R;
+import com.your.package.R;
 
 
 public class AftercallCustomView extends CalldoradoCustomView {
