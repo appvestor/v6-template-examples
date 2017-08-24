@@ -50,6 +50,6 @@ See how the template looks like.
 
 |  WIC  |  Aftercall  |
 |---|---|
-|  <img src="screenshots/Screenshot_20170823-124726.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170823-145438.png" width="288" height="512">  |
+|  <img src="screenshots/Screenshot_20170823-124726.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170823-145454.png" width="288" height="512">  |
 
 
