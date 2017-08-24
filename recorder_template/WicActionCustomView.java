@@ -19,7 +19,7 @@ public class WicActionCustomView extends CalldoradoCustomView {
     private ImageButton wicButton1;
     private boolean isVoiceRecordingPossible = false;
     private Context context;
-    private static final String TAG = "WicActionFragment";
+    private static final String TAG = AftercallCustomView.class.getName();
     public static final String CALL_RECORDING = "com.calldorado.android.intent.CALL_RECORDING";
 
     public WicActionCustomView(Context context) {
@@ -46,55 +46,17 @@ public class WicActionCustomView extends CalldoradoCustomView {
         wicButton1.setPadding(convertDpToPixel(5), convertDpToPixel(5), convertDpToPixel(5), convertDpToPixel(5));
         wicButton1.setImageDrawable(context.getResources().getDrawable(R.drawable.rec_cdo));
         wicButton1.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-        isVoiceRecordingPossible = true;  //add some logic here
-        Log.d(TAG, "isVoiceRecordingPossible = " + isVoiceRecordingPossible);
-
-        //user asked to record next call
-        SharedPreferences recordStatePreference = context.getSharedPreferences("callRecordFeature", 0);
-        if (recordStatePreference.getBoolean("shouldRecordNextCall", false)) {
-            String name = getContactName();
-            String phoneNo = getPhoneNumber();
-            Log.d(TAG, "record activated by user on previous aftercall:    name = " + name + ",      phoneNo = " + phoneNo);
-            Intent intent = new Intent();
-            intent.setAction(CALL_RECORDING);
-            intent.putExtra("phoneNumber", phoneNo);
-            intent.putExtra("name", name);
-            intent.putExtra("fromCdo", true);
-            intent.putExtra("isStart", true);
-            context.sendBroadcast(intent);  //informing a broadcast receiver to start recording. Record software is not part of of this template
-            Log.d(TAG, "Wic -pre-ordered recording triggered");
-            wicButton1.setClickable(false);
-            isVoiceRecordingPossible = false;
-            recordStatePreference.edit().putBoolean("shouldRecordNextCall", false).commit();
-        }
-
-        if (isVoiceRecordingPossible) {
-            wicButton1.getDrawable().clearColorFilter();
-            wicButton1.setClickable(true);
-        } else {
-            wicButton1.getDrawable().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_ATOP);
-            wicButton1.setClickable(false);
-        }
-
+        isVoiceRecordingPossible = true; //Add logic
+        
         wicButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "wic recording pressed");
                 if (isVoiceRecordingPossible) {
-                    String name = getContactName();
-                    String phoneNo = getPhoneNumber();
-                    Log.d(TAG, "onClick()    name = " + name + ",      phoneNo = " + phoneNo);
-                    Intent intent = new Intent();
-                    intent.setAction(CALL_RECORDING);
-                    intent.putExtra("phoneNumber", phoneNo);
-                    intent.putExtra("name", name);
-                    intent.putExtra("fromCdo", true);
-                    intent.putExtra("isStart", true);
-                    context.sendBroadcast(intent); //informing a broadcast receiver to start recording. Record software is not part of of this template
-                    Log.d(TAG, "Wic Call recording button receiver sent");
                     wicButton1.setClickable(false);
                     isVoiceRecordingPossible = false;
                     wicButton1.getDrawable().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_ATOP);
+                    //Add logic to start recording or desired action
                 }
             }
         });
