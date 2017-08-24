@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Button layout for a player / recorder. Making one button invisible should allocate the
+remaining buttons uniformly in the horizontal linear layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="14dp"
+              android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rec_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_rec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_cdo"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/rec_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/play_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_cdo"
+            android:layout_centerInParent="true"
+            android:paddingRight="8dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/play_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pause_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_pause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_cdo"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/pause_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stop_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_stop"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_cdo"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/stop_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/save_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_cdo"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/save_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/delete_button_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/aftercall_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_cdo"
+            android:padding="10dp"
+            android:src="@drawable/delete_cdo"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
