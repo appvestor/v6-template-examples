@@ -36,7 +36,7 @@ The [email template](https://github.com/Calldorado-com/calldorado-template-examp
 
 ### Message Template
 
-The [message template](https://github.com/Calldorado-com/calldorado-template-examples/tree/master/sms_template) shows you how to add two different types of native experiences for a messaging app. In the examples we show how to launch your app to complete an action started from the aftercall as well as how to show your own UI on the WIC.
+The [message template](https://github.com/Calldorado-com/calldorado-template-examples/tree/master/message_template) shows you how to add two different types of native experiences for a messaging app. In the examples we show how to launch your app to complete an action started from the aftercall as well as how to show your own UI on the WIC.
 
 ### Recorder Template
 
