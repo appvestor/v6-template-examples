@@ -4,7 +4,7 @@ A collection of native templates that can be used with the Calldorado SDK to int
 
 If you don't already have a Calldorado account make sure you sign up [here](https://my.calldorado.com/login/signup).
 
-## Introduction
+## About
 
 There are three areas where you can provide your own functionality. Two of those areas are part of the WIC - the floating box that appears during a call to identify the caller - and the third one is part of the Aftercall screen - the details page that comes after the call ends.
 
@@ -13,10 +13,6 @@ There are three areas where you can provide your own functionality. Two of those
 *	Custom UI in the Aftercall screen; show content on the call details page
 
 You should be familiar with the Calldorado SDK and have a basic working integration of Calldorado before proceeding. If you do not, please have a look [here](https://my.calldorado.com/) under Integration and Documentation.
-
-## Documentation
-
-Find it in our wiki page [here](https://github.com/Calldorado-com/calldorado-template-examples/wiki).
 
 ## Getting Started
 
@@ -41,3 +37,7 @@ The [message template](https://github.com/Calldorado-com/calldorado-template-exa
 ### Recorder Template
 
 The [recorder template](https://github.com/Calldorado-com/calldorado-template-examples/tree/master/recorder_template) shows you how to add two different types of native experiences for a call recorder app. In the examples we show how to start an action during the call and how to finalize it in the aftercall.
+
+## Documentation
+
+Find it in our wiki page [here](https://github.com/Calldorado-com/calldorado-template-examples/wiki).
