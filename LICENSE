@@ -1,40 +1,50 @@
-Calldorado SDK Template license terms
+GITTHUB TERMS – CALLDORADO CODE SNIPPETS 
 
-Version 1, August 2017
+Version 1, September 2017
 
-1.Definitions
-“snippets” means the software/code templates provided to the Pubisher by Calldorado under these terms.
-SDK (Software Development Kit) is a collection of software used for developing applications for a specific device or operating system.
+Calldorado ApS, Danish Company registration number DK37614904, business address: Bagsvaerdvej 84, 2800 Kongens Lyngby, Denmark, Denmark, owns and operates the "Calldorado" service. With these terms of license ("Terms ), Calldorado enables you as a developer of mobile applications to uti-lize the Calldorado software/code templates, snippets (“Code Snippets”) provided to you as a pub-lisher (“Publisher”) by Calldorado under these Terms. For the ease of reference, a software develop-ment Kit is a collection of software used for developing applications for a specific device or operating system (“SDK”).
 
-2.Granting of license
-Calldorado grants the Publisher a non-exclusive, time-limited, non-transferrable right to copy, modify, merge and use the code snippets and documentation in those countries in which the Publisher operates. The code may be used only for the Publisher’s own internal business purposes. The license is granted until the expiry or termination of the terms according to which the Publisher has been given permission to use the code, or these terms, howsoever caused. The aforesaid is subject to the Publisher meeting the standards and specifications set out in these terms or any other terms agreed between Calldorado and the Publisher regarding the use of the code.
+LICENSE
+Calldorado grants to the Publisher a non-exclusive, time-limited, non-transferrable right to copy, mod-ify, merge and use the Code Snippets and documentation in those countries in which the Publisher operates. The code may be used only for the Publisher’s own internal business purposes, and thus cannot be sold, sub-licensed, transferred or otherwise passed on by the Publisher. The license is granted until the expiry or termination of the developer terms and conditions according to which the Publisher has been given permission to use the Code Snippets, such as where the SDK is no longer used by the Publisher, or these Terms, howsoever caused. 
 
-3.Versioning
-The code snippets are versioned according to the following setup: {MAJOR}.{MINOR}.{PATCH}. Major and minor version changes cover new functionality and determine that updating needs attention as code changes might be needed and regressions testing is needed. Patch changes in a version are small upgrades that do not affect functionality.
+The license is given subject to the Publisher meeting the standards and specifications set out in these Terms or any other terms agreed between Calldorado and the Publisher regarding the use of the Code Snippets.
 
-Generally, support is not provided for old version versions back from the most recently released version, however, normal support will always be provided via the normal Calldorado support channel for issues releated to the SDK.
+Calldorado may revoke its license to you at any time without warning, at which time you agree you will take all necessary steps to remove the Code Snippets and any of its derivative files from any de-vice under your possession or control. 
 
-Example: Version 3.8.0 has just been released – latest previous version is 3.6.4. This means that version 3.6.4 is no longer supported, and users of this version must therefore upgrade to at latest version 3.8.0 in order to be entitled to support or expected to handle any issues on their own.
+Calldorado and third parties may provide you with a set of templates that allow you to include native app functionality on the screens the Calldorado SDK delivers. You can use and customize templates or build templates on your own, but you are not allowed to display any advertising or monetize the Call-dorado screens in any other way, directly or indirectly. You shall not show or add any advertising on top of the screens of the SDK.
 
-If a security issue or breach is discovered, a patch is released. In this situation, an upgrade to the latest version is expected and informed directly, and Publishers must upgrade or adapt within an agreed timeframe. This means that all versions prior to the security fix will be nullified and unsupported.
+VERSIONING
+The Code Snippets are versioned according to the following setup: {MAJOR}.{MINOR}.{PATCH}. Ma-jor and minor version changes cover new functionality and determine that updating needs attention as code changes might be needed and regressions testing is needed. Patch changes in a version are small upgrades that do not affect functionality.
 
+Generally, support is not provided for old versions back from the most recently released version, how-ever, normal support will always be provided via the normal Calldorado support channel for issues re-lated to the SDK.
 
-4.Disclaimer of warranty
-The code is provided “AS IS” WITHOUT WARRANTY OF ANY KIND, either express or implied, including without limitation any warranties or condition of title, merchantability, fitness for a particular purpose and non-infringement. The Publisher is responsible solely for determining the appropriateness of using or redistributing the snippets and assumes any risks associated with the Publisher’s exercise of permissions under the license.
+Example: Version 3.8.0 has just been released and latest previous version is 3.6.4. This means that version 3.6.4 is no longer supported, and users of this version must therefore upgrade to 	latest version 3.8.0 in order to be entitled to support or expected to handle any issues on their own.
 
-5.Limitation of liability
-In no event will Calldorado or its contributors be liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to, procurement of substitute goods or services, loss of use, data or profits; or business interruption) however caused, whether in contract, strict liability or tort arising in any way out of the use of this code.
+If a security issue or breach is discovered, a patch is released when possible for Calldorado. In this situation, an upgrade to the latest version is expected and informed directly, and Publishers must up-grade or adapt within an agreed timeframe. This means that all versions prior to the security fix will be nullified and unsupported.
 
-6.Open Source software
-The snippets may include source code which is licensed under an open source license agreement (“MIT License”). Use of the Open Source Software is subject those terms and conditions. The Licensee accepts to be bound by and comply with all such terms and conditions. Calldorado disclaims any liability for any third party claims, including, but not limited to, any infringement claims, relating to the Publisher’s use of the Open Source Software.
+DISCLAIMER
+The code is provided as is and without warranty of any kind, either express or implied, including with-out limitation any warranties or condition of title, merchantability, fitness for a particular purpose and non-infringement. The Publisher is solely responsible for determining the appropriateness of using or redistributing the Code Snippets and assumes any risks associated with the Publisher’s exercise of permissions under the license.
 
-7.Assignment
-The Publisher may not assign its rights and obligations under these terms in any way without Calldorado's prior written consent.
+LIMITATION OF LIABILITY
+Calldorado assumes no liability to the extent permitted by law. If this exclusion of liability and warran-ty is not permitted by law the following is considered:
 
-8.Content obligations
+Calldorado shall not be liable for any damage, unless it was caused by Calldorado or its agents with intent or gross negligence. Any liability for slight negligence shall be excluded. Any liability for per-sonal injuries shall remain unaffected thereby. Any liability for third-party damages, consequential damages and loss of profits shall be also excluded. Calldorado shall also not assume any liability for defects that could have been prevented by regular updates and other security measures. The burden of proof that damages would also have occurred if a backup or other security measure had been duly implemented on a regular basis lies with the Publisher.
+
+In no event will Calldorado or its contributors be liable for any direct, indirect, incidental, special, ex-emplary or consequential damages (including, but not limited to, procurement of substitute goods or services, loss of use, data or profits; or business interruption) however caused, whether in contract, strict liability or tort arising in any way out of the use of this code.
+
+OPEN SOURCE SOFTWARE
+The Code Snippets may include source code which is licensed under an open source license agree-ment, such as a MIT License. Use of open source software is subject to the terms and conditions the software is released under. The Publisher will become a licensee to such terms and accepts to be bound by and comply with all such terms and conditions when using the open source software. Call-dorado disclaims any liability for any third party claims, including but not limited to any infringement claims, relating to the Publisher’s use of open source software.
+
+ASSIGNMENT AND TRANSFER
+The Publisher is not entitled to assign its rights or obligations according to this Agreement to any al-lied company or third person. Calldorado is entitled to assign or transfer the agreement in full or in parts to a group related company upon having giving written notice to the Publisher.
+
+CONTENT OBLIGATIONS
 The Publisher is not allowed to monetize the native fields, hence in any way having content that can be used to gain money directly or indirectly.
-It is expected that no Inappropriate or schocking content is shown and all content are inline with the app and would be expected as such by the end user.
 
-9.Termination
-Upon expiry or termination of use of Calldorado and according to these terms, howsoever caused, Calldorado disables the Publisher ID provided by Calldorado to the Publisher for the use of this code, and the Publisher can no longer use the code provided under these terms.
+It is expected that no inappropriate or shocking content is shown in the app and that all content is in line with the app and would be expected as such by the end user.
 
+TERMINATION
+Upon expiry or termination of use of the Calldorado SDK and according to these Terms, howsoever caused, Calldorado disables the Publisher ID provided by Calldorado to the Publisher for the use of the Code Snippets, and the Publisher can no longer use the Code Snippets provided under these Terms.
+
+GOVERNING LAW AND VENUE
+These Terms shall be governed by the substantive laws of Denmark. The application of conflict of law clauses or choice of law clauses, in particular the CISG and, shall be excluded. The Venue for any claim shall be the Copenhagen City Court.
