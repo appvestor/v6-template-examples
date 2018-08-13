@@ -51,4 +51,4 @@ See how the template looks like.
 
 |  WIC (block action) |  Aftercall (not blocked)  | Aftercall (blocked)
 |---|---|---|
-|  <img src="screenshots/Screenshot_20170824-145111.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170824-145147.png" width="288" height="512">  | <img src="screenshots/Screenshot_20170824-145219.png" width="288" height="512"> |
+|  <img src="screenshots/wic_block_action.png" width="288" height="512">  |  <img src="screenshots/aftercall_not_blocked.png" width="288" height="512">  | <img src="screenshots/aftercall_number_blocked.png" width="288" height="512"> |

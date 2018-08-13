@@ -50,6 +50,6 @@ See how the template looks like.
 
 |  WIC (recording action)  |  Aftercall (recorder) |  Aftercall (player) |
 |---|---|---|
-|  <img src="screenshots/Screenshot_20170824-142600.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170824-142640.png" width="288" height="512">  |  <img src="screenshots/Screenshot_20170824-142635.png" width="288" height="512">  |
+|  <img src="screenshots/wic_recording_action.png" width="288" height="512">  |  <img src="screenshots/aftercall_recorder.png" width="288" height="512">  |  <img src="screenshots/aftercall_player.png" width="288" height="512">  |
 
 
