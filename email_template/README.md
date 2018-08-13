@@ -47,4 +47,4 @@ See how the template looks like.
 
 |  Aftercall (no previous email)  |  Aftercall (add email)  | Aftercall (send email)  |
 |---|---|---|
-|  <img src="screenshots/aftercall_no_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_add_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_saved_email2.png" width="288" height="512">  |
+|  <img src="screenshots/aftercall_no_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_add_email.png" width="288" height="512">  |  <img src="screenshots/aftercall_saved_email.png" width="288" height="512">  |
